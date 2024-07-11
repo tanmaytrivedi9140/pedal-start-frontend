@@ -1,0 +1,48 @@
+/* TaskDetails.css */
+.task-details {
+  background-color: white;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  margin: 20px 0;
+  max-width: 600px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.task-details h2 {
+  margin-top: 0;
+  margin-bottom: 10px;
+  color: #007bff;
+}
+
+.task-details p {
+  color: #555;
+  margin: 10px 0;
+}
+
+.task-details button {
+  background-color: #007bff;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  cursor: pointer;
+  border-radius: 5px;
+  transition: background-color 0.3s;
+}
+
+.task-details button:hover {
+  background-color: #007bff;
+}
+
+.task-details .date {
+  font-size: 0.9em;
+  color: #888;
+  margin-bottom: 20px;
+}
+
+.buttons {
+    display: flex;
+  gap: 20px !important;
+  margin-right: 50px;
+}
